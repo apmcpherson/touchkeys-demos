@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TouchKeysPreset format="0.1">
+  <KeyboardSegments>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="0"/>
+        <VALUE name="mode" val="2"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="60"/>
+        <VALUE name="noteMax" val="95"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="1"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="1"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="1"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.5"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="5"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="119"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="28"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="118"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="117"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="116"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment0/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="1"/>
+        <VALUE name="triggerOffAction" val="1"/>
+        <VALUE name="triggerOnNoteNum" val="1"/>
+        <VALUE name="triggerOffNoteNum" val="1"/>
+        <VALUE name="triggerOnNoteVel" val="1"/>
+        <VALUE name="triggerOffNoteVel" val="1"/>
+      </MappingFactory>
+    </Segment>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="1"/>
+        <VALUE name="mode" val="2"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="36"/>
+        <VALUE name="noteMax" val="59"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="1"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="1"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="1"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.25"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="115"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="114"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="113"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="112"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="111"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment1/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="2"/>
+        <VALUE name="triggerOffAction" val="2"/>
+        <VALUE name="triggerOnNoteNum" val="-1"/>
+        <VALUE name="triggerOffNoteNum" val="-1"/>
+        <VALUE name="triggerOnNoteVel" val="-1"/>
+        <VALUE name="triggerOffNoteVel" val="-1"/>
+      </MappingFactory>
+    </Segment>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="2"/>
+        <VALUE name="mode" val="2"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="96"/>
+        <VALUE name="noteMax" val="127"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="1"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="1"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="8"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.25"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="110"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="109"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="108"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="107"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="106"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment2/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="2"/>
+        <VALUE name="triggerOffAction" val="1"/>
+        <VALUE name="triggerOnNoteNum" val="-1"/>
+        <VALUE name="triggerOffNoteNum" val="-1"/>
+        <VALUE name="triggerOnNoteVel" val="-1"/>
+        <VALUE name="triggerOffNoteVel" val="-1"/>
+      </MappingFactory>
+    </Segment>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="3"/>
+        <VALUE name="mode" val="2"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="12"/>
+        <VALUE name="noteMax" val="35"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="0"/>
+        <VALUE name="usesKeyboardPitchWheel" val="0"/>
+        <VALUE name="usesKeyboardModWheel" val="0"/>
+        <VALUE name="usesKeyboardMidiControllers" val="0"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="16"/>
+        <VALUE name="useVoiceStealing" val="1"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.25"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="105"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="104"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="103"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="102"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="101"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment3/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="2"/>
+        <VALUE name="triggerOffAction" val="1"/>
+        <VALUE name="triggerOnNoteNum" val="-1"/>
+        <VALUE name="triggerOffNoteNum" val="-1"/>
+        <VALUE name="triggerOnNoteVel" val="-1"/>
+        <VALUE name="triggerOffNoteVel" val="-1"/>
+      </MappingFactory>
+    </Segment>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="4"/>
+        <VALUE name="mode" val="2"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="12"/>
+        <VALUE name="noteMax" val="127"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="1"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="1"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="8"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.25"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="100"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="99"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="98"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="97"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="96"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment4/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="2"/>
+        <VALUE name="triggerOffAction" val="1"/>
+        <VALUE name="triggerOnNoteNum" val="-1"/>
+        <VALUE name="triggerOffNoteNum" val="-1"/>
+        <VALUE name="triggerOnNoteVel" val="-1"/>
+        <VALUE name="triggerOffNoteVel" val="-1"/>
+      </MappingFactory>
+    </Segment>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="5"/>
+        <VALUE name="mode" val="3"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="12"/>
+        <VALUE name="noteMax" val="127"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="1"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="1"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="16"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.25"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="95"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="94"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="93"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="92"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="91"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment5/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="2"/>
+        <VALUE name="triggerOffAction" val="1"/>
+        <VALUE name="triggerOnNoteNum" val="-1"/>
+        <VALUE name="triggerOffNoteNum" val="-1"/>
+        <VALUE name="triggerOnNoteVel" val="-1"/>
+        <VALUE name="triggerOffNoteVel" val="-1"/>
+      </MappingFactory>
+    </Segment>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="6"/>
+        <VALUE name="mode" val="1"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="12"/>
+        <VALUE name="noteMax" val="127"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="1"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="1"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="8"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.25"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="90"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="97"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="96"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="95"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="94"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment6/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="2"/>
+        <VALUE name="triggerOffAction" val="1"/>
+        <VALUE name="triggerOnNoteNum" val="-1"/>
+        <VALUE name="triggerOffNoteNum" val="-1"/>
+        <VALUE name="triggerOnNoteVel" val="-1"/>
+        <VALUE name="triggerOffNoteVel" val="-1"/>
+      </MappingFactory>
+    </Segment>
+    <Segment>
+      <Properties>
+        <VALUE name="outputPort" val="7"/>
+        <VALUE name="mode" val="1"/>
+        <VALUE name="channelMask" val="65535"/>
+        <VALUE name="noteMin" val="12"/>
+        <VALUE name="noteMax" val="127"/>
+        <VALUE name="outputChannelLowest" val="0"/>
+        <VALUE name="outputTransposition" val="0"/>
+        <VALUE name="damperPedalEnabled" val="1"/>
+        <VALUE name="usesKeyboardChannelPressure" val="1"/>
+        <VALUE name="usesKeyboardPitchWheel" val="1"/>
+        <VALUE name="usesKeyboardModWheel" val="1"/>
+        <VALUE name="usesKeyboardMidiControllers" val="1"/>
+        <VALUE name="pitchWheelRange" val="2"/>
+        <VALUE name="retransmitMaxPolyphony" val="8"/>
+        <VALUE name="useVoiceStealing" val="0"/>
+      </Properties>
+      <MappingFactory type="Vibrato">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/vibrato"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="vibratoControl" val="128"/>
+        <VALUE name="vibratoRange" val="1.25"/>
+        <VALUE name="vibratoPrescaler" val="2"/>
+        <VALUE name="vibratoTimeout" val="0.4"/>
+        <VALUE name="vibratoOnsetThresholdX" val="0.05"/>
+        <VALUE name="vibratoOnsetThresholdY" val="0.02"/>
+        <VALUE name="vibratoOnsetRatioX" val="0.3"/>
+        <VALUE name="vibratoOnsetRatioY" val="0.8"/>
+      </MappingFactory>
+      <MappingFactory type="PitchBend">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/pitchbend"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="0"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="128"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="bendRangeSemitones" val="2"/>
+        <VALUE name="bendThresholdSemitones" val="0.2"/>
+        <VALUE name="bendThresholdKeyLength" val="0.1"/>
+        <VALUE name="bendMode" val="1"/>
+        <VALUE name="fixedModeMinEnableDistance" val="0.1"/>
+        <VALUE name="fixedModeBufferDistance" val="0"/>
+        <VALUE name="bendIgnoresTwoFingers" val="0"/>
+        <VALUE name="bendIgnoresThreeFingers" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/control"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="93"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="3"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/control2"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="92"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="2"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/control3"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="91"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="1"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/control4"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="90"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="4"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="Control">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/control5"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="89"/>
+        <VALUE name="bypassed" val="0"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="inputParameter" val="5"/>
+        <VALUE name="inputType" val="1"/>
+        <VALUE name="outputRangeMin" val="0"/>
+        <VALUE name="outputRangeMax" val="127"/>
+        <VALUE name="outputDefault" val="0"/>
+        <VALUE name="threshold" val="0"/>
+        <VALUE name="ignoresTwoFingers" val="0"/>
+        <VALUE name="ignoresThreeFingers" val="0"/>
+        <VALUE name="direction" val="1"/>
+        <VALUE name="use14Bit" val="0"/>
+      </MappingFactory>
+      <MappingFactory type="MultiFingerTrigger">
+        <VALUE name="controlName" val="/touchkeys/mapping/segment7/multifingertrigger"/>
+        <VALUE name="inputRangeMin" val="0"/>
+        <VALUE name="inputRangeMax" val="1"/>
+        <VALUE name="inputRangeCenter" val="0"/>
+        <VALUE name="outOfRangeBehavior" val="2"/>
+        <VALUE name="midiControllerNumber" val="-1"/>
+        <VALUE name="bypassed" val="1"/>
+        <VALUE name="activeNotes" val="4095"/>
+        <VALUE name="numTouchesForTrigger" val="2"/>
+        <VALUE name="numFramesForTrigger" val="2"/>
+        <VALUE name="numConsecutiveTapsForTrigger" val="1"/>
+        <VALUE name="maxTapSpacing" val="0.3"/>
+        <VALUE name="needsMidiNoteOn" val="1"/>
+        <VALUE name="triggerOnAction" val="2"/>
+        <VALUE name="triggerOffAction" val="1"/>
+        <VALUE name="triggerOnNoteNum" val="-1"/>
+        <VALUE name="triggerOffNoteNum" val="-1"/>
+        <VALUE name="triggerOnNoteVel" val="-1"/>
+        <VALUE name="triggerOffNoteVel" val="-1"/>
+      </MappingFactory>
+    </Segment>
+  </KeyboardSegments>
+</TouchKeysPreset>
