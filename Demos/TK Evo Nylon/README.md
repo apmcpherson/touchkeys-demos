@@ -6,8 +6,8 @@ Materials by Mike Bailey / IndygoMusic.
 
 Getting started:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/horeJPM3cjQ" frameborder="0" gesture="media" allowfullscreen></iframe>
+[![TouchKeys Evolution Nylon: setup](https://img.youtube.com/vi/horeJPM3cjQ/0.jpg)](https://www.youtube.com/watch?v=horeJPM3cjQ)
 
 Demo 1:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qpRC8LNeX6c" frameborder="0" gesture="media" allowfullscreen></iframe>
+[![TouchKeys Evolution Nylon: two-handed monophonic playing](https://img.youtube.com/vi/qpRC8LNeX6c/0.jpg)](https://www.youtube.com/watch?v=qpRC8LNeX6c)
